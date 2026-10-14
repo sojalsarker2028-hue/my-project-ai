@@ -1,0 +1,10 @@
+{
+  "name": "Tree Leaf AI - Leaf Health Scanner & Disease Guide",
+  "description": "AI-powered tree leaf health detector and botanical disease guide. Diagnose healthy vs unhealthy leaves in real-time with Teachable Machine, supporting English & Bangla.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

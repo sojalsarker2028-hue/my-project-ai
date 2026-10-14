@@ -1,0 +1,436 @@
+{
+  "admin": {
+    "salt": "a1b2c3d4e5f67890",
+    "passwordHash": "f7dcb5ba35572c2be87db20cb2329f954a4472414f37d187db819f384c382106",
+    "updatedAt": 1728750000000
+  },
+  "settings": {
+    "siteTitle": "Plant Doctor AI - Leaf Health & Disease Guide",
+    "bannerNoticeEn": "Official Agricultural Leaf Diagnostic Portal. All data is verified for agricultural education.",
+    "bannerNoticeBn": "অফিসিয়াল কৃষি পাতা রোগ নির্ণয় পোর্টাল। সমস্ত তথ্য কৃষি শিক্ষার জন্য যাচাইকৃত।",
+    "showBanner": true,
+    "allowRegistration": true,
+    "examPassPercentage": 70,
+    "maintenanceMode": false
+  },
+  "users": [
+    {
+      "id": "usr_1791829242690_xkzkj",
+      "fullName": "Abdul Karim",
+      "mobileNumber": "+8801711223344",
+      "createdAt": 1791829242690,
+      "updatedAt": 1791829242690,
+      "status": "active",
+      "examsTaken": 0
+    }
+  ],
+  "exams": [
+    {
+      "id": "exam_1",
+      "titleEn": "Botanical Leaf Disease Identification",
+      "titleBn": "উদ্ভিদের পাতার রোগ শনাক্তকরণ পরীক্ষা",
+      "descriptionEn": "Test your diagnostic skills on early blight, powdery mildew, bacterial leaf streak, and viral chlorosis.",
+      "descriptionBn": "আর্লি ব্লাইট, পাউডারি মিলডিউ, ব্যাকটেরিয়াল লিফ স্ট্রিক ও মোজাইক ভাইরাস শনাক্তকরণে দক্ষতা যাচাই।",
+      "category": "Leaf Pathology",
+      "timeLimitMinutes": 10,
+      "passPercentage": 70,
+      "questions": [
+        {
+          "id": "q1_1",
+          "examId": "exam_1",
+          "questionEn": "What is the primary visual hallmark of Early Blight (Alternaria solani) on tomato and potato leaves?",
+          "questionBn": "টমেটো ও আলুর পাতায় আর্লি ব্লাইট (অল্টারনারিয়া সোলানি) রোগের প্রধান লক্ষণ কোনটি?",
+          "optionsEn": [
+            "Concentric dark rings creating a 'target board' pattern with yellow chlorotic halo",
+            "Translucent watery blisters on the lower leaf surface",
+            "White powdery talcum-like coating covering only the upper epidermis",
+            "Angular veins turning pitch black with no leaf yellowing"
+          ],
+          "optionsBn": [
+            "হলুদ বলয় পরিবেষ্টিত লক্ষ্যবস্তুর (টার্গেট বোর্ড) মতো ঘন ঘন গোল রিংয়ের দাগ",
+            "পাতার নিচের অংশে জলভরা স্বচ্ছ ফোস্কা",
+            "পাতার উপরের ত্বকে চকের মতো সাদা পাউডারের স্তর",
+            "হলুদ ভাব ছাড়া পাতা শিরার কালো হয়ে যাওয়া"
+          ],
+          "correctOptionIndex": 0,
+          "explanationEn": "Alternaria solani typically causes brown to black spots with concentric rings resembling a target board, often accompanied by chlorotic yellow halos.",
+          "explanationBn": "অল্টারনারিয়া সোলানি ছত্রাকের আক্রমণে গাঢ় বাদামি বা কালচে গোল রিং সৃষ্টি হয় যা টার্গেট বোর্ডের মতো দেখায় এবং চারপাশে হলদে বলয় থাকে।",
+          "category": "Fungal Pathology",
+          "difficulty": "Medium"
+        },
+        {
+          "id": "q1_2",
+          "examId": "exam_1",
+          "questionEn": "Which fungal pathogen produces a characteristic white powdery coating on upper leaf surfaces during dry days with high relative humidity at night?",
+          "questionBn": "কোন ছত্রাকজনিত রোগে পাতার ওপরের অংশে সাদা পাউডারের মতো স্তর সৃষ্টি হয়?",
+          "optionsEn": [
+            "Powdery Mildew (Erysiphales)",
+            "Late Blight (Phytophthora infestans)",
+            "Bacterial Wilt (Ralstonia solanacearum)",
+            "Root Knot Nematode (Meloidogyne)"
+          ],
+          "optionsBn": [
+            "পাউডারি মিলডিউ (Erysiphales)",
+            "লেট ব্লাইট (Phytophthora infestans)",
+            "ব্যাকটেরিয়াল উইল্ট (Ralstonia solanacearum)",
+            "রুট নট নেমাটোড"
+          ],
+          "correctOptionIndex": 0,
+          "explanationEn": "Powdery mildew manifests as white, powdery fungal mycelia and conidia on the upper surfaces of leaves, reducing photosynthesis.",
+          "explanationBn": "পাউডারি মিলডিউ রোগে পাতার ওপরের অংশে সাদা চকের গুঁড়োর মতো ছত্রাকের মাইসেলিয়াম ও কনিডিয়া জন্ম নেয়।",
+          "category": "Fungal Pathology",
+          "difficulty": "Easy"
+        },
+        {
+          "id": "q1_3",
+          "examId": "exam_1",
+          "questionEn": "What indicates Citrus Canker (Xanthomonas citri) on citrus leaves compared to fungal scab?",
+          "questionBn": "লেবুর পাতায় ক্যাঙ্কার (Xanthomonas citri) রোগের প্রধান স্বাতন্ত্র্য কোনটি?",
+          "optionsEn": [
+            "Raised crater-like corky lesions surrounded by a prominent oily yellow halo",
+            "Deep purple square spots confined entirely within minor veins",
+            "Soft wet slimy rot that smells like sulfur",
+            "Silver streaks along the midrib with no raised surface"
+          ],
+          "optionsBn": [
+            "উঁচু খসখসে কর্কের মতো ক্ষত যার চারপাশে উজ্জ্বল তৈলাক্ত হলুদ বলয় থাকে",
+            "শিরা দিয়ে সীমাবদ্ধ বেগুনি চারকোনা দাগ",
+            "সালফারের মতো দুর্গন্ধযুক্ত নরম ভেজা পচন",
+            "মধ্যশিরার পাশে রুপালী দাগ কোনো উঁচু অংশ ছাড়া"
+          ],
+          "correctOptionIndex": 0,
+          "explanationEn": "Citrus canker lesions are raised, pustular, and corky with erupted craters surrounded by characteristic yellow chlorotic haloes on both leaf surfaces.",
+          "explanationBn": "ক্যাঙ্কার রোগে পাতায় খসখসে উঁচু ক্ষতের সৃষ্টি হয় যা ফেটে যায় এবং চারপাশে স্পষ্ট তৈলাক্ত হলদে বলয় দেখা যায়।",
+          "category": "Bacterial Pathology",
+          "difficulty": "Medium"
+        },
+        {
+          "id": "q1_4",
+          "examId": "exam_1",
+          "questionEn": "When leaves show alternating patches of light green, dark green, and mottled yellow mosaic with blistering, which pathogen class is primarily responsible?",
+          "questionBn": "পাতায় হালকা ও গাঢ় সবুজ ছোপ ছোপ মোজাইক নকশা এবং পাতা কোঁকড়ানো লক্ষণের জন্য মূলত দায়ী কোনটি?",
+          "optionsEn": [
+            "Plant Viruses (e.g., Mosaic Viruses transmitted by aphids/whiteflies)",
+            "Soil-borne nematodes",
+            "High nitrogen toxicity",
+            "Iron deficiency chlorosis"
+          ],
+          "optionsBn": [
+            "উদ্ভিদ ভাইরাস (যেমন মোজাইক ভাইরাস যা জাবপোকা বা সাদা মাছি ছড়ায়)",
+            "মাটির নেমাটোড",
+            "অতিরিক্ত নাইট্রোজেনের বিষাক্ততা",
+            "আয়রনের অভাবজনিত ক্লোরোসিস"
+          ],
+          "correctOptionIndex": 0,
+          "explanationEn": "Viral mosaic diseases cause intermingled chlorotic and dark patches, leaf wrinkling, and stunting, usually vectored by piercing-sucking insects.",
+          "explanationBn": "ভাইরাসজনিত মোজাইক রোগে পাতায় হালকা ও গাঢ় সবুজ দাগ, পাতা কোঁকড়ানো এবং বৃদ্ধি ব্যাহত হয় যা চোষক পোকা ছড়ায়।",
+          "category": "Viral Pathology",
+          "difficulty": "Easy"
+        },
+        {
+          "id": "q1_5",
+          "examId": "exam_1",
+          "questionEn": "Under the validated leaf diagnostic criteria, what status corresponds to an 85% Health Score?",
+          "questionBn": "যাচাইকৃত পাতার স্বাস্থ্য নির্ণয় নীতি অনুযায়ী ৮৫% হেলথ স্কোরের সঠিক স্ট্যাটাস কোনটি?",
+          "optionsEn": [
+            "Healthy (80–100%)",
+            "Partially Healthy (50–79%)",
+            "Unhealthy (0–49%)",
+            "Critical Infection"
+          ],
+          "optionsBn": [
+            "Healthy (৮০–১০০%)",
+            "Partially Healthy (৫০–৭৯%)",
+            "Unhealthy (০–৪৯%)",
+            "সংকটজনক সংক্রামিত"
+          ],
+          "correctOptionIndex": 0,
+          "explanationEn": "Strict rule: 80–100% = Healthy, 50–79% = Partially Healthy, and 0–49% = Unhealthy.",
+          "explanationBn": "সুনির্দিষ্ট নিয়ম: ৮০–১০০% = সুস্থ (Healthy), ৫০–৭৯% = আংশিক সুস্থ (Partially Healthy), ০–৪৯% = অসুস্থ (Unhealthy)।",
+          "category": "Diagnostic Standards",
+          "difficulty": "Easy"
+        }
+      ],
+      "createdAt": 1728700000000
+    },
+    {
+      "id": "exam_2",
+      "titleEn": "Integrated Crop & Plant Health Management",
+      "titleBn": "সমন্বিত বালাই ও ফসল স্বাস্থ্য ব্যবস্থাপনা পরীক্ষা",
+      "descriptionEn": "Assess understanding of biological controls, chemical safety, crop rotation, and soil nutrient balancing.",
+      "descriptionBn": "জৈব বালাই দমন, বালাইনাশকের নিরাপদ ব্যবহার, শস্য পর্যায় ও সুষম সার ব্যবস্থাপনা মূল্যায়ন।",
+      "category": "Agronomy & IPM",
+      "timeLimitMinutes": 10,
+      "passPercentage": 70,
+      "questions": [
+        {
+          "id": "q2_1",
+          "examId": "exam_2",
+          "questionEn": "What is the primary organic preventative spray against early fungal spores like powdery mildew and blight?",
+          "questionBn": "পাউডারি মিলডিউ ও ছত্রাকের প্রাথমিক স্পোর দমনে কোন জৈব প্রতিরোধক কার্যকর?",
+          "optionsEn": [
+            "Neem oil emulsion (Azadirachtin) or copper hydroxide at dusk",
+            "Raw concentrated urea sprayed directly at midday",
+            "Pouring chlorinated bleach onto foliage",
+            "Pure kerosene oil"
+          ],
+          "optionsBn": [
+            "নিম তেল ইমালশন (অ্যাজাডিরাকটিন) অথবা বিকেলে কপার হাইড্রোক্সাইড স্প্রে",
+            "দুপুরে পাতার ওপর সরাসরি কাঁচা ইউরিয়ার দ্রবণ স্প্রে",
+            "পাতার ওপর ক্লোরিন ব্লিচিং দেওয়া",
+            "খাঁটি কেরোসিন তেল"
+          ],
+          "correctOptionIndex": 0,
+          "explanationEn": "Cold-pressed neem oil acts as an anti-feedant and fungistatic coating, while mild copper-based compounds prevent spore germination.",
+          "explanationBn": "নিম তেল ছত্রাকের বিস্তার রোধ করে এবং কপার যৌগ ছত্রাকের স্পোর অঙ্কুরোদগমে বাধা দেয়।",
+          "category": "IPM & Bio-control",
+          "difficulty": "Easy"
+        },
+        {
+          "id": "q2_2",
+          "examId": "exam_2",
+          "questionEn": "Why is avoiding overhead sprinkler irrigation recommended for blight-susceptible crops?",
+          "questionBn": "ব্লাইট প্রবণ ফসলে ওপর থেকে ছিটানো সেচ পরিহার করার কারণ কী?",
+          "optionsEn": [
+            "Prolonged leaf wetness provides the free water film necessary for fungal spore germination and splash dispersal",
+            "Water burns leaf cells when sunlight hits drops",
+            "Sprinklers deplete soil nitrogen instantly",
+            "Sprinklers invite nematodes into the fruit"
+          ],
+          "optionsBn": [
+            "পাতায় দীর্ঘক্ষণ জমে থাকা পানি ছত্রাকের স্পোর ফোটাতে এবং ছিটিয়ে বিস্তার ঘটাতে সাহায্য করে",
+            "সূর্যের আলোতে পানির ফোঁটা পাতা পুড়িয়ে ফেলে",
+            "স্প্রিঙ্কলার মাটির নাইট্রোজেন সঙ্গে সঙ্গে শেষ করে",
+            "স্প্রিঙ্কলার ফলগুলোতে নেমাটোড আনে"
+          ],
+          "correctOptionIndex": 0,
+          "explanationEn": "Most fungal and bacterial pathogens (like Phytophthora and Xanthomonas) require free moisture on foliage for 4-8 hours to germinate and penetrate stomata.",
+          "explanationBn": "অধিকাংশ ছত্রাক ও ব্যাকটেরিয়ার স্পোর পাতার ওপর ভেজা আর্দ্রতা পেলে সহজেই বংশবৃদ্ধি করে এবং বিস্তার লাভ করে।",
+          "category": "Crop Management",
+          "difficulty": "Medium"
+        },
+        {
+          "id": "q2_3",
+          "examId": "exam_2",
+          "questionEn": "What symptom distinguishes Nitrogen deficiency from Iron deficiency in crops?",
+          "questionBn": "নাইট্রোজেনের ঘাটতির সাথে আয়রনের ঘাটতির প্রধান পার্থক্য কোনটি?",
+          "optionsEn": [
+            "Nitrogen chlorosis starts on older lower leaves first; Iron chlorosis appears first on youngest upper leaves",
+            "Nitrogen turns veins black; Iron creates purple spots",
+            "Nitrogen deficiency causes wet slime rot",
+            "Iron deficiency only affects root tips"
+          ],
+          "optionsBn": [
+            "নাইট্রোজেনের অভাবে বয়স্ক নিচের পাতা আগে হলুদ হয়; আয়রনের অভাবে কচি ডগার ওপরের পাতা আগে হলুদ হয়",
+            "নাইট্রোজেনের অভাবে শিরা কালো হয়; আয়রনে বেগুনি দাগ পড়ে",
+            "নাইট্রোজেনের অভাবে পচন ধরে",
+            "আয়রনের অভাবে শুধুই শিকড় ক্ষতিগ্রস্ত হয়"
+          ],
+          "correctOptionIndex": 0,
+          "explanationEn": "Nitrogen is mobile in the plant and moves to new growth, causing older leaves to yellow. Iron is immobile, so new young leaves show interveinal chlorosis.",
+          "explanationBn": "নাইট্রোজেন উদ্ভিদে সঞ্চালনশীল হওয়ায় বয়স্ক পাতা থেকে কচি পাতায় চলে যায়, ফলে পুরনো পাতা হলুদ হয়; অন্যদিকে আয়রন সঞ্চালনশীল না হওয়ায় কচি পাতা আগে হলুদ হয়।",
+          "category": "Plant Nutrition",
+          "difficulty": "Medium"
+        },
+        {
+          "id": "q2_4",
+          "examId": "exam_2",
+          "questionEn": "How does crop rotation break the disease cycle of soil-borne pathogens?",
+          "questionBn": "ফসল পর্যায়ক্রম (Crop Rotation) কীভাবে মাটির রোগজীবাণুর চক্র ভেঙে দেয়?",
+          "optionsEn": [
+            "Deprives host-specific pathogens of suitable host plants, depleting pathogen inoculum over time",
+            "Eliminates the need for any water or fertilization",
+            "Increases soil temperature to 100 degrees Celsius",
+            "Changes atmospheric pressure above the field"
+          ],
+          "optionsBn": [
+            "নির্দিষ্ট উদ্ভিদের পরজীবী জীবাণুকে পোষকহীন করে ফেলে যাতে সময়ের সাথে জীবাণুর সংখ্যা হ্রাস পায়",
+            "কোনো পানি বা সারের প্রয়োজন শেষ করে দেয়",
+            "মাটির তাপমাত্রা ১০০ ডিগ্রি সেলসিয়াস বাড়িয়ে দেয়",
+            "মাঠের ওপরের বায়ুচাপ পরিবর্তন করে"
+          ],
+          "correctOptionIndex": 0,
+          "explanationEn": "Planting non-host crops starves specific fungal and nematode populations that persist in crop debris.",
+          "explanationBn": "ভিন্ন জাতের অপ্রাসঙ্গিক ফসল চাষ করলে নির্দিষ্ট জীবাণু খাদ্য না পেয়ে মারা যায় এবং জীবাণুর ঘনত্ব কমে।",
+          "category": "Agronomy",
+          "difficulty": "Easy"
+        },
+        {
+          "id": "q2_5",
+          "examId": "exam_2",
+          "questionEn": "What personal protective equipment (PPE) is essential when applying registered fungicides?",
+          "questionBn": "অনুমোদিত ছত্রাকনাশক স্প্রে করার সময় কোন ব্যক্তিগত সুরক্ষা সামগ্রী আবশ্যক?",
+          "optionsEn": [
+            "Chemical-resistant gloves, eye goggles, respirator/face mask, and protective clothing",
+            "Ordinary sunglasses and shorts",
+            "Bare hands with plastic wristbands",
+            "Cotton sandals with no gloves"
+          ],
+          "optionsBn": [
+            "রাসায়নিক প্রতিরোধী গ্লাভস, গগলস বা চশমা, মাস্ক এবং ফুলহাতা সুরক্ষামূলক পোশাক",
+            "সাধারণ রোদচশমা ও শর্টস",
+            "খালি হাত ও প্লাস্টিকের ফিতা",
+            "স্যান্ডেল ও খালি হাত"
+          ],
+          "correctOptionIndex": 0,
+          "explanationEn": "Safe application mandates protective barriers to prevent skin contact and respiratory inhalation of aerosolized active ingredients.",
+          "explanationBn": "নিরাপদ ব্যবহারের জন্য রাসায়নিক প্রতিরোধী গ্লাভস, মাস্ক ও শরীরের পূর্ণ সুরক্ষা নিশ্চিত করা জরুরি।",
+          "category": "Farm Safety",
+          "difficulty": "Easy"
+        }
+      ],
+      "createdAt": 1728710000000
+    }
+  ],
+  "examResults": [
+    {
+      "id": "res_seed_1",
+      "userId": "usr_seed_1",
+      "userName": "Md. Rafiqul Islam",
+      "userMobile": "+8801712345678",
+      "examId": "exam_1",
+      "examTitle": "Botanical Leaf Disease Identification",
+      "score": 5,
+      "totalQuestions": 5,
+      "percentage": 100,
+      "passed": true,
+      "answers": [
+        {
+          "questionId": "q1_1",
+          "selectedOptionIndex": 0,
+          "correctOptionIndex": 0,
+          "isCorrect": true
+        },
+        {
+          "questionId": "q1_2",
+          "selectedOptionIndex": 0,
+          "correctOptionIndex": 0,
+          "isCorrect": true
+        },
+        {
+          "questionId": "q1_3",
+          "selectedOptionIndex": 0,
+          "correctOptionIndex": 0,
+          "isCorrect": true
+        },
+        {
+          "questionId": "q1_4",
+          "selectedOptionIndex": 0,
+          "correctOptionIndex": 0,
+          "isCorrect": true
+        },
+        {
+          "questionId": "q1_5",
+          "selectedOptionIndex": 0,
+          "correctOptionIndex": 0,
+          "isCorrect": true
+        }
+      ],
+      "completedAt": 1728725000000
+    },
+    {
+      "id": "res_seed_2",
+      "userId": "usr_seed_2",
+      "userName": "Anika Tabassum",
+      "userMobile": "+8801823456789",
+      "examId": "exam_1",
+      "examTitle": "Botanical Leaf Disease Identification",
+      "score": 4,
+      "totalQuestions": 5,
+      "percentage": 80,
+      "passed": true,
+      "answers": [
+        {
+          "questionId": "q1_1",
+          "selectedOptionIndex": 0,
+          "correctOptionIndex": 0,
+          "isCorrect": true
+        },
+        {
+          "questionId": "q1_2",
+          "selectedOptionIndex": 0,
+          "correctOptionIndex": 0,
+          "isCorrect": true
+        },
+        {
+          "questionId": "q1_3",
+          "selectedOptionIndex": 1,
+          "correctOptionIndex": 0,
+          "isCorrect": false
+        },
+        {
+          "questionId": "q1_4",
+          "selectedOptionIndex": 0,
+          "correctOptionIndex": 0,
+          "isCorrect": true
+        },
+        {
+          "questionId": "q1_5",
+          "selectedOptionIndex": 0,
+          "correctOptionIndex": 0,
+          "isCorrect": true
+        }
+      ],
+      "completedAt": 1728730000000
+    },
+    {
+      "id": "sub_1791828170638_g7hxd",
+      "userId": "anonymous",
+      "userName": "Tester User",
+      "userMobile": "01799887766",
+      "examId": "exam_1",
+      "examTitle": "Botanical Leaf Disease Identification",
+      "score": 1,
+      "totalQuestions": 5,
+      "percentage": 20,
+      "passed": false,
+      "answers": [
+        {
+          "questionId": "q1_1",
+          "selectedOptionIndex": 0,
+          "correctOptionIndex": 0,
+          "isCorrect": true
+        },
+        {
+          "questionId": "q1_2",
+          "selectedOptionIndex": -1,
+          "correctOptionIndex": 0,
+          "isCorrect": false
+        },
+        {
+          "questionId": "q1_3",
+          "selectedOptionIndex": -1,
+          "correctOptionIndex": 0,
+          "isCorrect": false
+        },
+        {
+          "questionId": "q1_4",
+          "selectedOptionIndex": -1,
+          "correctOptionIndex": 0,
+          "isCorrect": false
+        },
+        {
+          "questionId": "q1_5",
+          "selectedOptionIndex": -1,
+          "correctOptionIndex": 0,
+          "isCorrect": false
+        }
+      ],
+      "completedAt": 1791828170638
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1791829242700_hc9et",
+      "title": "Monsoon Blight Alert",
+      "message": "Persistent damp weather detected in regional farms. Inspect potato leaves for dark water-soaked lesions.",
+      "category": "alert",
+      "priority": "high",
+      "sentAt": 1791829242700,
+      "targetAudience": "all_registered_users",
+      "recipientCount": 1,
+      "deliveryStatus": "delivered",
+      "readBy": []
+    }
+  ]
+}
